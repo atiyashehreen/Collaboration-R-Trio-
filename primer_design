@@ -1,0 +1,20 @@
+Primer pair 1
+Forward primer Sequence (5'->3'):           CTGCTGGTGGTCTACCCTTG
+Forward primer Template strand:             Plus
+Forward primer Length:                      20
+Forward primer Start:                       2
+Forward primer Stop:                        21
+Forward primer Tm:                          60.04
+Forward primer GC%:                         60.00
+Forward primer Self complementarity:        5.00
+Forward primer Self 3' complementarity:     0.00
+Reverse primer Sequence (5'->3'):           AGGCCATCACTAAAGGCACC
+Reverse primer Template strand:             Minus
+Reverse primer Length:                      20
+Reverse primer Start:                       135
+Reverse primer Stop:                        116
+Reverse primer Tm:                          60.03
+Reverse primer GC%:                         55.00
+Reverse primer Self complementarity:        5.00
+Reverse primer Self 3' complementarity:     2.00
+Product length:                             134
