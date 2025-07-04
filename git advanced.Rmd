@@ -1,0 +1,54 @@
+---
+title: "Git advanced"
+author: "Atiya Shehreen"
+date: "2025-07-04"
+output: html_document
+---
+
+## Introduction
+
+This document demonstrates my practice with Git branching: creating, merging, and deleting branches. The commands are shown in code chunks.
+
+## Navigating to an already cloned repo
+```{bash}
+cd Downloads
+cd Collaborate-1/
+```
+
+## Making a new branch
+```{bash}
+git checkout main
+git pull origin main
+git branch feature/practise
+git checkout feature/practise
+```
+
+## Adding files to new branch
+```{bash}
+touch demofile.txt
+echo "This is a text file" > demofile.txt
+cat demofile.txt
+```
+
+## Pushing changes to github
+```{bash}
+git status
+git add demofile.txt
+git commit -m "added demo text file"
+git push origin feature/practise
+```
+
+## Merging branch 
+```{bash}
+git checkout main
+git merge feature/practise
+ls
+git push origin main
+```
+
+## Deleting branch
+After deleting branch in github, the branch is deleted from device using:
+```{bash}
+git branch -d feature/practise
+```
+
